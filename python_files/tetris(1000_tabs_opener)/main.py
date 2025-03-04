@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import QWidget, QApplication
 def open_wins(wait_time):
     time.sleep(wait_time)
     for i in range(1000):
-        webbrowser.open("https://nursplace.dev")
+        webbrowser.open("https://google.com")
 
 t1 = threading.Thread(target=open_wins, args=(2,))
 
